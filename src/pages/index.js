@@ -8,32 +8,35 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: "Easy to Use",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    title: "Accurate Recreation",
+    imageUrl: "img/favicon.png",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        All the boards are designed to accuratly recreate the boards you would
+        find at stations. Including scrolling information displays and paging
+        stop displays
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    title: "Live Departure Times",
+    imageUrl: "img/live.png",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        All the boards constantly update with the latest data including delays
+        to services or platform alterations. Sometimes the platform will be
+        shown even before it would appear in the actual station
       </>
     ),
   },
   {
-    title: "Powered by React",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    title: "Open Source",
+    imageUrl: "img/opensource.png",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Led Departure Board is an opensource project. This means everyone has
+        access to the source code and can contribute towards the webapp. You can
+        click the github link in the top right to view the project
       </>
     ),
   },

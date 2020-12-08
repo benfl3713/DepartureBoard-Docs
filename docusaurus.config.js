@@ -25,7 +25,7 @@ module.exports = {
         },
         // { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/benfl3713/DepartureBoard",
           label: "GitHub",
           position: "right",
         },
@@ -37,29 +37,24 @@ module.exports = {
         {
           title: "Docs",
           items: [
+            // {
+            //   label: "Style Guide",
+            //   to: "docs/",
+            // },
             {
-              label: "Style Guide",
-              to: "docs/",
+              label: "Introduction",
+              to: "docs/getting-started/introduction",
+            },
+            {
+              label: "Main Board",
+              to: "docs/board-types/main-board",
+            },
+            {
+              label: "Single Board",
+              to: "docs/board-types/single-board",
             },
           ],
         },
-        // {
-        //   title: "Community",
-        //   items: [
-        //     {
-        //       label: "Stack Overflow",
-        //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-        //     },
-        //     {
-        //       label: "Discord",
-        //       href: "https://discordapp.com/invite/docusaurus",
-        //     },
-        //     {
-        //       label: "Twitter",
-        //       href: "https://twitter.com/docusaurus",
-        //     },
-        //   ],
-        // },
         {
           title: "More",
           items: [
@@ -70,6 +65,10 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/benfl3713/DepartureBoard-Docs",
+            },
+            {
+              label: "Project Github",
+              href: "https://github.com/benfl3713/DepartureBoard",
             },
           ],
         },
