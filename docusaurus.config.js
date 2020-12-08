@@ -25,6 +25,11 @@ module.exports = {
         },
         // { to: "blog", label: "Blog", position: "left" },
         {
+          href: "https://leddepartureboard.com",
+          label: "Website",
+          position: "right",
+        },
+        {
           href: "https://github.com/benfl3713/DepartureBoard",
           label: "GitHub",
           position: "right",
@@ -63,12 +68,16 @@ module.exports = {
             //   to: "blog",
             // },
             {
-              label: "GitHub",
+              label: "Docs GitHub",
               href: "https://github.com/benfl3713/DepartureBoard-Docs",
             },
             {
-              label: "Project Github",
+              label: "Github Project",
               href: "https://github.com/benfl3713/DepartureBoard",
+            },
+            {
+              label: "Led Departure Board",
+              href: "https://leddepartureboard.com",
             },
           ],
         },

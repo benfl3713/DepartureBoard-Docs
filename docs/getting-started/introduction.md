@@ -7,8 +7,6 @@ Led Departure Board is a webapp designed to re-create the departure signs
 you get at uk and German train stations. The data is collected live from
 various sources and displayed in custom panels.
 
----
-
 ## Welcome
 
 This website holds a vast library of documentation on how to use [leddepartureboard.com](https://leddepartureboard.com).  
@@ -25,5 +23,5 @@ Use the sidebar to navigate through the documents, or use the search bar to find
 ---
 
 :::tip Tip
-See the [Board Types](doc1.md) section on how to use the various different boards
+See the [Board Types](board-types/mainboard.mdx) section on how to use the various different boards
 :::
