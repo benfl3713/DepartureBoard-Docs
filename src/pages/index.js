@@ -59,7 +59,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -72,7 +72,7 @@ function Home() {
                 "button button--outline button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              to={useBaseUrl("docs/getting-started/introduction")}
             >
               Get Started
             </Link>

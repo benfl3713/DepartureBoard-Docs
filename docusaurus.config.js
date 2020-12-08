@@ -9,6 +9,7 @@ module.exports = {
   organizationName: "benfl3713", // Usually your GitHub org/user name.
   projectName: "DepartureBoard-Docs", // Usually your repo name.
   themeConfig: {
+    description: "Documentation on Led Departure Board",
     navbar: {
       title: "Departure Board Docs",
       logo: {
@@ -22,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -66,10 +67,10 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/benfl3713/DepartureBoard-Docs",
