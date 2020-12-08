@@ -10,5 +10,15 @@ module.exports = {
       label: "Board Types",
       items: ["board-types/main-board", "board-types/single-board"],
     },
+    {
+      type: "category",
+      label: "Custom Departures",
+      items: [],
+    },
+    // {
+    //   type: "link",
+    //   label: "Departure Board Admin",
+    //   href: "",
+    // },
   ],
 };

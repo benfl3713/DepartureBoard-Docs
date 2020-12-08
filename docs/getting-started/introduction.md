@@ -11,8 +11,8 @@ various sources and displayed in custom panels.
 
 ## Welcome
 
-This website holds a vast library of documentation on how to use leddepartureboard.com.
-Use the sidebar to navigate through the documents, or you the search bar to find something specific
+This website holds a vast library of documentation on how to use [leddepartureboard.com](https://leddepartureboard.com).  
+Use the sidebar to navigate through the documents, or use the search bar to find something specific.
 
 ## Viewing a station
 

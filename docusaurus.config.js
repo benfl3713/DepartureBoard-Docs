@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "docs/getting-started/introduction",
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
@@ -85,13 +85,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/benfl3713/DepartureBoard-Docs/edit/master/",
+            "https://github.com/benfl3713/DepartureBoard-Docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/benfl3713/DepartureBoard-Docs/edit/master/",
+            "https://github.com/benfl3713/DepartureBoard-Docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
