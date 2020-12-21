@@ -36,6 +36,11 @@ module.exports = {
         },
       ],
     },
+    googleAnalytics: {
+      trackingID: "G-KHJ4MPEQBF",
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     footer: {
       style: "dark",
       links: [
