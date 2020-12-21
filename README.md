@@ -1,5 +1,7 @@
 # DepartureBoard-Docs
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a39fac2-7eb2-4345-b483-d1a32519ee47/deploy-status)](https://app.netlify.com/sites/docs-leddepartureboard/deploys)
+
 This is the documentation website for <https://leddepartureboard.com>  
 To view the live site please visit <https://docs.leddepartureboard.com>
 

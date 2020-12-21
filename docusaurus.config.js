@@ -25,6 +25,11 @@ module.exports = {
         },
         // { to: "blog", label: "Blog", position: "left" },
         {
+          href: "https://github.com/benfl3713/DepartureBoard/discussions/176",
+          label: "Help",
+          position: "right",
+        },
+        {
           href: "https://leddepartureboard.com",
           label: "Website",
           position: "right",
@@ -83,6 +88,26 @@ module.exports = {
             {
               label: "Led Departure Board",
               href: "https://leddepartureboard.com",
+            },
+          ],
+        },
+        {
+          title: "Requests",
+          items: [
+            {
+              label: "Feature Request",
+              href:
+                "https://github.com/benfl3713/DepartureBoard/issues/new?assignees=&labels=enhancement&template=feature_request.md",
+            },
+            {
+              label: "Bug Report",
+              href:
+                "https://github.com/benfl3713/DepartureBoard/issues/new?assignees=&labels=bug&template=bug_report.md",
+            },
+            {
+              label: "Ask Anything",
+              href:
+                "https://github.com/benfl3713/DepartureBoard/discussions/176",
             },
           ],
         },

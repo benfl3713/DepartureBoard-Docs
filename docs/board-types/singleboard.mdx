@@ -1,0 +1,41 @@
+---
+id: single-board
+title: Single Board
+---
+
+import BrowserWindow from "@site/src/components/BrowserWindow";
+
+The single board shows the next 3 departures from a station, and all the stops along the journey, on a scrolling line, for the first departure.
+
+## Viewing
+
+You can use the search box to find the station you want and tick the singleboard option, or put the station CRS code into the browser url.
+E.g The CRS code for **London Euston** is `EUS`. So therefor to view the departure for Euston you would go to <https://leddepartureboard.com/singleboard/EUS>
+
+<BrowserWindow
+  url="https://leddepartureboard.com/singleboard/EUS"
+  backgroundColor="black"
+>
+  <img src="/img/board-types/EUS-singleboard.png"></img>
+</BrowserWindow>
+
+## Configuration
+
+There are many different config options that change the way the single board functions
+
+### Platform
+
+The platform can be set to only show departures from a specific platform.  
+To do so just add the platform parameter to the url. E.g <https://leddepartureboard.com/singleboard/EUS?platform=9>
+
+### Station Name
+
+By Default the Station Name is not shown when viewing a station. There is also 2 ways to show the station name.
+
+1. You can go to [Settings](https://leddepartureboard.com/settings) and click on **Single Board**. And then toggle **Show Station Name**.
+2. You can add the url parameter to the end of the url.  
+   E.g <https://leddepartureboard.com/singleboard/EUS?showStationName=true> or if there is already a parameter then use the `&` symbol instead. E.g <https://leddepartureboard.com/singleboard/EUS?platform=9&showStationName=true>
+
+<!-- ## Clickable Items
+
+Various parts on each departure can be clicked to change something. -->
