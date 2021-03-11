@@ -8,6 +8,7 @@ module.exports = {
     {
       type: "category",
       label: "Board Types",
+      collapsed: false,
       items: ["board-types/main-board", "board-types/single-board"],
     },
     {

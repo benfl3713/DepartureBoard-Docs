@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        // { to: "blog", label: "Blog", position: "left" },
+        { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/benfl3713/DepartureBoard/discussions/176",
           label: "Help",
@@ -73,10 +73,10 @@ module.exports = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "blog",
-            // },
+            {
+              label: "Blog",
+              to: "blog",
+            },
             {
               label: "Docs GitHub",
               href: "https://github.com/benfl3713/DepartureBoard-Docs",
