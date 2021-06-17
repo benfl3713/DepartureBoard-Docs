@@ -9,7 +9,7 @@ various sources and displayed in custom panels.
 
 ## Welcome
 
-This website holds a vast library of documentation on how to use [lwww.eddepartureboard.com](https://www.leddepartureboard.com).  
+This website holds a vast library of documentation on how to use [www.eddepartureboard.com](https://www.leddepartureboard.com).  
 Use the sidebar to navigate through the documents, or use the search bar to find something specific.
 
 ## Viewing a station
