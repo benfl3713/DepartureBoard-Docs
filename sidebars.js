@@ -16,6 +16,8 @@ module.exports = {
       label: "Custom Departures",
       items: [],
     },
+    "tips",
+    "advanced"
     // {
     //   type: "link",
     //   label: "Departure Board Admin",
