@@ -18,3 +18,20 @@ Or if you already are using a parameter then use **&** instead
 [www.leddepartureboard.com/EUS?platform=1&acceptCookies=true](https://www.leddepartureboard.com/EUS?platform=1&acceptCookies=true)
 
 
+## Mainboard
+
+### Filter to stations a service will pass through
+
+Sometimes you may only want to see departures that are going to a paticular place. E.g only want to see departures from Edinburgh that go through Birmingham New Steet.
+
+**To do this you can add a to filter on the url**. E.g [www.leddepartureboard.com/EDB/to/BHM](https://www.leddepartureboard.com/EDB/to/BHM)
+
+This can also be used with all the different boards and urls. Here's a list of possible combinations:
+
+- **/EDB/to/BHM** - Normal to station filtering
+- **/EDB/to/BHM/12** - Display count on the end
+- **/singleboard/EDB/to/BHM/12** - Singleboard with to station filtering
+- **/arrivals/EDB/to/BHM** - To Station filtering on arrivals
+- **/singleboard/arrivals/EDB/to/BHM** - Singleboard To Station filtering on arrivals
+
+
